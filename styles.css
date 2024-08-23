@@ -1,1 +1,91 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#app {
+    text-align: center;
+}
+
+.vid-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.vid-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.player-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sound-picker {
+    margin-bottom: 20px;
+}
+
+.sound-picker button {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sound-picker button:hover {
+    background-color: #55382d;
+}
+
+.time-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#time-select button {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#time-select button:hover {
+    background-color: #55382d;
+}
+
+.play {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.play:hover {
+    background-color: #55382d;
+}
+
